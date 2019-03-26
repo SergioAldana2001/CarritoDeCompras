@@ -1,0 +1,29 @@
+body{
+    background: black;
+    color: white;
+}
+
+#items{
+    width: 100px;
+    height: 50px;
+}
+
+.card.col-sm-4{
+    background: blanchedalmond;
+    color: royalblue;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 90px;
+    width: calc(4*100%/12);
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-right: 4px solid black;
+}
+aside.col-sm-4 {
+    position: absolute;
+    TOP: 450PX;
+    LEFT: 50PX;
+}
+aside.col-sm-4 > ul{
+    color: black;
+}
